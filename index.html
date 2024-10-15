@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/formulário/style.css" />
+    <title>Novo usuário</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h2>Nova conta</h2>
+      </section>
+      <form action="" id="form" class="form">
+        <div class="form-content">
+          <label for="username">Nome do usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite o nome do usuário"
+          />
+          <a href="">Aqui vai a mensagem de erro...</a>
+        </div>
+        <!-- fim da primeira etapa inicio da segunda -->
+        <div class="form-content">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite o seu e-mail" />
+          <a href="">Aqui vai a mensagem de erro...</a>
+        </div>
+        <!-- fim da segunda etapa e inicio da terceira-->
+        <div class="form-content">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Digite a sua senha"
+          />
+          <a href="">Aqui vai a mensagem de erro...</a>
+        </div>
+        <!-- Fim da terceira etapa e inicio da quarta -->
+        <div class="form-content">
+          <label for="password-confirmation">Repita a Senha</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite a sua senha novamente"
+          />
+          <a href="">Aqui vai a mensagem de erro...</a>
+        </div>
+        <!-- Fim da quarta -->
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+    <script src="/formulário/script.js"></script>
+  </body>
+</html>
